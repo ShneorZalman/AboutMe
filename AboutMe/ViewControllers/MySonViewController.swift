@@ -1,28 +1,21 @@
 //
-//  HelloViewController.swift
+//  MySonViewController.swift
 //  AboutMe
 //
-//  Created by Zalman Zoteev on 12/05/2023.
+//  Created by Zalman Zoteev on 15/05/2023.
 //
 
 import UIKit
 
-final class HelloViewController: UIViewController {
+class MySonViewController: UIViewController {
 
-    @IBOutlet var helloLabel: UILabel!
-    
-    var user: String!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        helloLabel.text = "hello \(String(user))"
+
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func logoutButtonTapped() {
-        dismiss(animated: true)
-    }
-    
+
     /*
     // MARK: - Navigation
 
