@@ -7,7 +7,8 @@
 
 import UIKit
 
-final class AuthorizationViewController: UIViewController { // Я запутался, Должен ли я передавать данные по экранам или на каждом вью делать свою иницилизацию( прошу прощения за ошибки( стыдно сдавать такую работу(
+final class AuthorizationViewController: UIViewController {
+    // Я запутался, Должен ли я передавать данные по экранам или на каждом вью делать свою иницилизацию( прошу прощения за ошибки( стыдно сдавать такую работу(
     
     
     private let loginValue = LoginValue.getLoginValue()

@@ -9,21 +9,19 @@ import UIKit
 
 class MySonViewController: UIViewController {
 
+    let info = Person.getInfo()
+    
+    @IBOutlet var fanfactLabel: UILabel!
+    @IBOutlet var descriptionLabel: UILabel!
+    @IBOutlet var ageLabel: UILabel!
+    @IBOutlet var nameLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        nameLabel.text = "my name \(String(info[2].name))"
+        ageLabel.text = "my age \(String(info[2].age))"
+        descriptionLabel.text = "i'm \(String(info[2].description))"
+        fanfactLabel.text = "my name \(String(info[2].fanFact))"
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

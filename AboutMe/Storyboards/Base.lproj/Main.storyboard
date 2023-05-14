@@ -92,8 +92,8 @@
                         <viewLayoutGuide key="safeArea" id="w6M-Wm-Xtr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Ya2-bb-Q8e" firstAttribute="leading" secondItem="w6M-Wm-Xtr" secondAttribute="leading" constant="16" id="QVg-R5-YUd"/>
-                            <constraint firstItem="Ya2-bb-Q8e" firstAttribute="top" secondItem="w6M-Wm-Xtr" secondAttribute="top" constant="50" id="Ztj-jf-J6b"/>
+                            <constraint firstItem="Ya2-bb-Q8e" firstAttribute="leading" secondItem="w6M-Wm-Xtr" secondAttribute="leading" constant="16" id="44U-fh-MMZ"/>
+                            <constraint firstItem="Ya2-bb-Q8e" firstAttribute="top" secondItem="w6M-Wm-Xtr" secondAttribute="top" constant="50" id="HAy-9q-t0W"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="About me" id="yXu-Kk-cuI">
@@ -104,10 +104,10 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="ageLabel" destination="UNj-FU-ShB" id="lkc-ZH-cEp"/>
-                        <outlet property="descriptionLabel" destination="e8u-eb-zVv" id="DZX-oY-82m"/>
-                        <outlet property="fanfactLabel" destination="lQ7-Dj-zdF" id="T7j-Bj-TWh"/>
-                        <outlet property="nameLabel" destination="292-BZ-r27" id="eXG-iz-xUp"/>
+                        <outlet property="ageLabel" destination="UNj-FU-ShB" id="In3-PN-DFu"/>
+                        <outlet property="descriptionLabel" destination="e8u-eb-zVv" id="zmM-zi-cRJ"/>
+                        <outlet property="fanfactLabel" destination="lQ7-Dj-zdF" id="XTt-EF-caz"/>
+                        <outlet property="nameLabel" destination="292-BZ-r27" id="i2x-fZ-KtB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Gz-2P-i54" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -123,7 +123,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="rVa-4V-jm8">
-                                <rect key="frame" x="16" y="142.5" width="110.5" height="165"/>
+                                <rect key="frame" x="16" y="143" width="110.5" height="165"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbs-ma-Z6g">
                                         <rect key="frame" x="0.0" y="0.0" width="85.5" height="36"/>
@@ -155,11 +155,17 @@
                         <viewLayoutGuide key="safeArea" id="YJB-7T-6Qq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="rVa-4V-jm8" firstAttribute="leading" secondItem="YJB-7T-6Qq" secondAttribute="leading" constant="16" id="bPS-TT-2SN"/>
-                            <constraint firstItem="rVa-4V-jm8" firstAttribute="top" secondItem="YJB-7T-6Qq" secondAttribute="top" constant="50" id="p0W-5g-3O1"/>
+                            <constraint firstItem="rVa-4V-jm8" firstAttribute="leading" secondItem="YJB-7T-6Qq" secondAttribute="leading" constant="16" id="SgL-tv-cfC"/>
+                            <constraint firstItem="rVa-4V-jm8" firstAttribute="top" secondItem="YJB-7T-6Qq" secondAttribute="top" constant="50.5" id="iqo-nw-7L2"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="My son" id="00h-X0-hTd"/>
+                    <connections>
+                        <outlet property="ageLabel" destination="7C9-EW-Thd" id="DWt-GN-SYF"/>
+                        <outlet property="descriptionLabel" destination="Qgi-i4-Qlh" id="AzJ-yp-F88"/>
+                        <outlet property="fanfactLabel" destination="geE-JI-JCO" id="d11-oe-KXr"/>
+                        <outlet property="nameLabel" destination="hbs-ma-Z6g" id="EMX-4U-W5J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VEr-Sw-tpw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
